@@ -26,7 +26,8 @@ const wednesday = () => {
   const wednesdayex = species.map((names) => names.name);
   return {
     officeHour: wednesdayoff,
-    exhibition: wednesdayex.filter((names) => names !== 'lions' && names !== 'elephants' && names !== 'snakes'),
+    exhibition: wednesdayex.filter((names) => names !== 'lions' && names
+    !== 'elephants' && names !== 'snakes'),
   };
 };
 const thursday = () => {
